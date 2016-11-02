@@ -31,16 +31,3 @@
 (global-set-key (kbd "C-c s") 'helm-projectile-grep)
 (global-set-key (kbd "C-c f") 'helm-projectile-find-file)
 (global-set-key (kbd "C-l") 'goto-line)
-
-
-(add-to-list 'hs-special-modes-alist
-	     '(ruby-mode
-	       "\\(def\\|do\\|{\\)" "\\(end\\|end\\|}\\)" "#"
-	       (lambda (arg) (ruby-end-of-block)) nil))
-
-;;(hs-minor-mode)
-
-
-(drag-stuff-global-mode)
-(global-set-key (kbd "M-n") 'drag-stuff-down)
-(global-set-key (kbd "M-p") 'drag-stuff-up)
