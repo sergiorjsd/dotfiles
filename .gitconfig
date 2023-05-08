@@ -1,0 +1,9 @@
+[user]
+	name = Sergio Rojas
+	email = sergiorjsd@gmail.com
+[merge]
+	ff = false
+[branch]
+	autosetuprebase = always
+[core]
+	editor = nano
